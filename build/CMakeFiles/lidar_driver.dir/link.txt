@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/lidar_driver.dir/src/lidar_driver/lidar_driver.cpp.o CMakeFiles/lidar_driver.dir/src/lidar_driver/main.cpp.o -o lidar_driver  libproject2.a liblidar.a /home/ashed/rob320/project1/lib/linux-x86_64/libproject1.a librplidar_sdk.a 

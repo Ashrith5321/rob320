@@ -1,0 +1,2 @@
+/usr/bin/ar qc libproject2.a CMakeFiles/project2.dir/src/rix/ipc/client_tcp.cpp.o CMakeFiles/project2.dir/src/rix/ipc/server_tcp.cpp.o CMakeFiles/project2.dir/src/rix/ipc/connection_tcp.cpp.o CMakeFiles/project2.dir/src/rix/ipc/endpoint.cpp.o CMakeFiles/project2.dir/src/rix/ipc/socket.cpp.o
+/usr/bin/ranlib libproject2.a

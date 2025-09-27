@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmbot.a CMakeFiles/mbot.dir/src/mbot/mbot.cpp.o
+/usr/bin/ranlib libmbot.a

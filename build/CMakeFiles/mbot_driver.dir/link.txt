@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mbot_driver.dir/src/mbot_driver/mbot_driver.cpp.o CMakeFiles/mbot_driver.dir/src/mbot_driver/main.cpp.o -o mbot_driver  libproject2.a libmbot.a /home/ashed/rob320/project1/lib/linux-x86_64/libproject1.a 

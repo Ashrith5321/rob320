@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/socket_test.dir/tests/socket.cpp.o -o socket_test  libproject2.a /usr/lib/x86_64-linux-gnu/libgtest_main.a /home/ashed/rob320/project1/lib/linux-x86_64/libproject1.a /usr/lib/x86_64-linux-gnu/libgtest.a 
