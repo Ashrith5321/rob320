@@ -67,7 +67,7 @@ class ConnectionTCP : public interfaces::Connection {
      * @param duration The maximum duration to wait.
      * @return true if the client has become readable within the duration.
      */
-    virtual bool wait_for_readable(const rix::util::Duration &duration) const override;
+    virtual bool wait_for_readable(const rix::util::Duration &duration) const override; 
 
     /**
      * @brief Set the client into non-blocking mode.
