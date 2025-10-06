@@ -17,7 +17,7 @@ ClientTCP &ClientTCP::operator=(const ClientTCP &other) {
 
 ClientTCP::~ClientTCP() {}
 
-/**< TODO *///-----------------------------------------------------------------------------
+/**< TODO *///-------------------------------
 bool ClientTCP::connect(const Endpoint &endpoint) { 
     int flags = ::fcntl(socket.fd(), F_GETFL, 0);
 

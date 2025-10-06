@@ -48,7 +48,7 @@ Endpoint ServerTCP::local_endpoint() const {
      return e; 
 }
 
-/**< TODO *///////////------------------------------------------------------------------------------------------------
+/**< TODO *///////////-----------------------------------------
 bool ServerTCP::accept(std::weak_ptr<interfaces::Connection> &connection) { 
     Socket new_sock;
     if (!socket.accept(new_sock)) {
@@ -64,14 +64,14 @@ bool ServerTCP::accept(std::weak_ptr<interfaces::Connection> &connection) {
     return true;
  }
 
-/**< TODO *///////////------------------------------------------------------------------------------------------------
+/**< TODO *///////////------------------------------------
 bool ServerTCP::wait_for_accept(rix::util::Duration duration) const { 
         int fd = socket.fd();
     if (fd < 0) return false;
 
     struct pollfd pfd{};
     pfd.fd = fd;
-    // Listening socket becomes readable when a connection is pending.
+
     pfd.events = POLLIN;
 
     int timeout = static_cast<int>(duration.to_milliseconds());

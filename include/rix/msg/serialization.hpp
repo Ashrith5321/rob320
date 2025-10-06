@@ -33,7 +33,7 @@ inline uint32_t size_string_array(const std::array<std::string, N> &src) {
 }
 template <typename T, size_t N>
 inline uint32_t size_message_array(const std::array<T, N> &src) {
-    static_assert(std::is_base_of<Message, T>::value, "T must derive from Message");
+    static_assert(std::is_base_of<Message, T>::value, "T must derive from Message");    
     uint32_t size = 0;
     for (const auto &m : src) size += size_message(m);
     return size;
